@@ -8,10 +8,21 @@ header{
   background-color: #182C61;
   color: #ecf0f1;
 }
+header,
+section h2{
+  font-family: 'Bungee', sans-serif;
+}
+header h1,
+section h2{
+  font-weight: normal;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
 header nav li{
   display: inline;
   margin-left: 16px;
-  font-size: 24px;
+  font-size: 18px;
 }
 header nav li a{
   color: #ecf0f1;
@@ -32,13 +43,15 @@ header .conteiner{
 }
 .brands-list li{
   display: inline;
+  margin-right: 8px;
 }
 section .conteiner{
   display: flex;
   align-items: flex-start;
 }
 section{
-  padding: 24 0;
+  padding: 24px 0;
+  color: #182C61;
 }
 section h2{
   margin-bottom:16px;
