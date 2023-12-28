@@ -27,3 +27,30 @@ header .conteiner{
   align-items: center;
   justify-content: space-between;
 }
+.brands-list img{
+  height: 24px;
+}
+.brands-list li{
+  display: inline;
+}
+section .conteiner{
+  display: flex;
+  align-items: flex-start;
+}
+section{
+  padding: 24 0;
+}
+section h2{
+  margin-bottom:16px;
+}
+section p{
+  margin-bottom: 8px;
+}
+.store-front{
+  margin-right: 32px;
+}
+
+/*
+font-family: 'Bungee', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
